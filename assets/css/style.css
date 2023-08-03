@@ -29,11 +29,10 @@ body {
     padding-bottom: 1rem;
 }
 
-
 .categorias img {
     width: 15rem;
-    justify-content: start;
-    align-items: start;
+    
+  
 }
 
  .categorias ul{
@@ -43,6 +42,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
    text-decoration: none;
+  
      
 }
 
@@ -56,7 +56,14 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+.categorias .categoria__a a {
+    border: 1px solid #ffffff;
+}
 
+.categorias .categoria__a a:hover {
+    background-color: #ffffff;
+    color: black;
+}
 
 .container .main__texto{
     justify-content: center;
@@ -77,11 +84,12 @@ body {
 }
 
 .main__texto button{
-    font-size: 1.3rem;
-    padding: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    padding: 0.3rem 1.3rem 0.3rem 1.3rem;
     background-color: black;
     color: #ffffff;
-    margin: 2rem;
+    margin-left: 20rem;
 }
  
  .container .main__texto a , button{
