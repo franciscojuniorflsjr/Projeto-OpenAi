@@ -30,7 +30,7 @@ body {
 }
 
 .categorias img {
-    width: 15rem;
+    width: 14rem;
     
   
 }
@@ -69,15 +69,15 @@ body {
     justify-content: center;
     position: relative;
     z-index: 1;
-    padding: 12rem;
+    padding-top: 10rem; 
     justify-content: center;
     align-items: center;
     font-size: 2.7rem;
 }
 
 .main__texto a {
-    font-size: 1.3rem;
-    padding: 0.3rem;
+    font-size: 1.4rem;
+    padding: 0.2rem;
     text-decoration: none;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -85,23 +85,18 @@ body {
 
 .main__texto button{
     flex-wrap: wrap;
-    font-size: 1.1rem;
-    padding: 0.3rem 1.3rem 0.3rem 1.3rem;
+    font-size: 1.3rem;
+    margin: 0.5rem;
     background-color: black;
     color: #ffffff;
-    margin-left: 20rem;
-}
- 
- .container .main__texto a , button{
-    justify-content:space-between;
-    margin: 2rem;
-        
     
 }
+ 
+
 
 .topicos__item{
     display: flex;
-    padding: 2rem;
+    padding-top: 23rem;
 
     
 }
@@ -247,3 +242,5 @@ height: 100vh;
     width: 98%;
     padding: 2rem;
 }
+
+
