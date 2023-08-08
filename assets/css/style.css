@@ -69,7 +69,7 @@ body {
     justify-content: center;
     position: relative;
     z-index: 1;
-    padding-top: 10rem; 
+    padding-top: 15rem; 
     justify-content: center;
     align-items: center;
     font-size: 2.7rem;
@@ -83,6 +83,11 @@ body {
     border: 1px solid #ffffff;
 }
 
+.main__texto a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
 .main__texto button{
     flex-wrap: wrap;
     font-size: 1.3rem;
@@ -90,6 +95,10 @@ body {
     background-color: black;
     color: #ffffff;
     
+}
+.main__texto button:hover{
+    background-color: #ffffff;
+    color: black;
 }
  
 
@@ -131,26 +140,26 @@ body {
     padding: 1rem;
 }
 
-.foto__galery .galery {
+ .galery {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    column-gap: 35px;
+   
     
 }
 
-.galery ul {
-    display: flex;
-    gap: 1rem;
-      
- }
+.image-list li{
+    width: 22%;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+    
+}
 
-
-.galery img {
+.image-item img{
     max-width:100%;
-    height: 70%;
-   padding-bottom: 1rem;
+    height: auto;
+   padding-bottom: 3rem;
 }
 
 .galery h4{
@@ -158,7 +167,7 @@ body {
    
 }
 
-.foto__galery h2 ,a{
+.foto__galery h2, a{
     padding: 1rem;
    
 }
@@ -199,7 +208,7 @@ border-top: 1px solid #ffffff;
 }
 
 .container__text img{
- width: 100vw;
+ width: 97vw;
 height: 100vh;
  flex-wrap: wrap;
  padding-bottom: 5rem;
@@ -216,6 +225,11 @@ height: 100vh;
 .container__end h2 {
   font-size: 2.9rem;
   justify-content: start;
+}
+
+.container__end img {
+    width: 60vw;
+    height: 70vh;
 }
 
 .end__container h5, legend{
