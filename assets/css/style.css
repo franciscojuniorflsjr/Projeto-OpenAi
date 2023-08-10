@@ -148,18 +148,24 @@ body {
     
 }
 
+.image-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .image-list li{
-    width: 22%;
-    margin: 1rem;
-    text-align: center;
-    display: inline-block;
+    width: 21%;
+    padding: 0.8rem;
+   
+    
     
 }
 
 .image-item img{
-    max-width:100%;
-    height: auto;
-   padding-bottom: 3rem;
+     max-width:100%;
+    max-height:50%;
+    
 }
 
 .galery h4{

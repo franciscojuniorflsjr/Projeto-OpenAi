@@ -4,6 +4,8 @@
  }
 
 
+
+
 @media (max-width: 1240px) {
     .categorias__item{
         display: none;
@@ -48,25 +50,20 @@
 flex-direction: column;
 }
 
-
-.container__text {
-    justify-content: start;
-    align-items: start;
-    
-}
 .image-list li{
-    width: 48%;
-    margin: 1rem;
-    text-align: center;
-    display: inline-block;
-    
-}
-
-
-
+   
 
 }
 
+.image-item img{
+    width:100vw;
+    height:100vh;
+     
+   
+}
+
+
+}
 
 
 
