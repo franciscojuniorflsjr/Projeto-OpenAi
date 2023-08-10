@@ -105,7 +105,7 @@ body {
 
 .topicos__item{
     display: flex;
-    padding-top: 23rem;
+    padding-top: 21rem;
 
     
 }
@@ -152,11 +152,14 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+   
 }
 
 .image-list li{
-    width: 21%;
-    padding: 0.8rem;
+    width: 23%;
+    height: auto; 
+  ; margin: .5rem;
+    
    
     
     
@@ -164,7 +167,8 @@ body {
 
 .image-item img{
      max-width:100%;
-    max-height:50%;
+    max-height:60%;
+    white-space: nowrap;
     
 }
 
@@ -178,7 +182,11 @@ body {
    
 }
 .foto__galery h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
+}
+
+.foto__galery p {
+    font-size: 1.8rem;
 }
 
 .foto__galery a {
@@ -193,33 +201,44 @@ body {
 
 .container .container__text, p {
     display: flex;
-    padding-left: 32rem;
+    padding-left: 12rem;
     text-align: end;
     justify-content: end;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
+    padding-top: 2rem;
    
 }
 
-.container .container__text ,.link__link {
+.container .container__text,.link__link {
     display: flex;
     text-align: end;
     justify-content: end;
-    font-size: 2rem; 
+    font-size: 1rem; 
     padding-left: 2rem;
     margin: 1rem;
 }
 
 .container__text{
-border-top: 1px solid #ffffff;
+    font-size: 1.8rem;
+    margin: 1rem;
+    border-top: 1px solid #ffffff;
 }
 
 .container__text img{
- width: 97vw;
-height: 100vh;
- flex-wrap: wrap;
- padding-bottom: 5rem;
+    width: 97vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
 }
 
+.container__text a {
+     color: #ffffff;
+     font-size: 1.5rem;
+}
+
+.container__text a:hover{
+    text-decoration: none;
+}
 
 .container__end {
    display: flex;
@@ -263,4 +282,12 @@ height: 100vh;
     padding: 2rem;
 }
 
+.container__footer .footer__button:hover{
+    background-color: #ffffff;
+    color: black;
+}
 
+.container__footer h2 {
+    font-size: 2.8rem;
+    padding: 2rem 0 4rem 0;
+}
