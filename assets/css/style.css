@@ -254,9 +254,9 @@ padding: 1rem;
   justify-content: start;
 }
 
-.container__end img {
-    width: 60vw;
-    height: 60vh;
+.container__end__img {
+    width: 80vw;
+    height: auto;
 }
 
 
