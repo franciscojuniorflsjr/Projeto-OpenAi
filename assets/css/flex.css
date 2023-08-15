@@ -130,21 +130,33 @@ flex-direction: column;
     }
 
 
+    .container__text img{
+        width: 100%;
+        height: 100%;
+    }
+
+
     .topicos__item .topicos h3, a { 
            padding-bottom: 5rem;
        
      }
 
-     .container__end img {
-        width: 50vw;
-        height: 50vh;
-        
-    }
-
-    .galery li{
-        display: block;
-        flex-direction: column;
+      
+    .image-list{
+        justify-content: center;
+        column-gap: 20rem;
+        row-gap: 1rem;
        
     }
+
+
+    .end__container {
+  
+    
+    }
+
+
+
+
 
     }
