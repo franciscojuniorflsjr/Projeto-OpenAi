@@ -8,9 +8,9 @@
 
 
  .image-list img{
-    
+   
      width:100vw;
-    height:60vh; 
+    height:85vh; 
     
   
     
@@ -26,6 +26,12 @@
     align-items: center;
     justify-content: center;
     
+ }
+
+
+
+ .image-item {
+    flex-grow: 1;
  }
  
 @media (max-width: 1240px) {
@@ -83,6 +89,7 @@ flex-direction: column;
     justify-content: center;
     row-gap: 2rem;
     column-gap: 10rem;
+    padding: 1rem;
   
 
 }
@@ -134,7 +141,10 @@ flex-direction: column;
         
     }
 
-
-
+    .galery li{
+        display: block;
+        flex-direction: column;
+       
+    }
 
     }
